@@ -13,6 +13,9 @@ At the time of writing, Chrome & Firefox.
 
 Check out [Can I Use](http://caniuse.com/#feat=subresource-integrity) for more information
 
+## Install
+`$ go install github.com/ramosisw/sri-gen `
+
 ## Usage
 `$ sri-gen -hash(256|384|512) [file paths]` will output a result.txt file with resultant hashes ready for SRI with their respective file names
 
